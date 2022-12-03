@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LoginPage = () => {
     return (
         <div class="content-body" background ="https://images.unsplash.com/flagged/photo-1562503542-2a1e6f03b16b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80">
@@ -21,7 +23,8 @@ const LoginPage = () => {
                 </form>
 
                 <div class="bg-grey">
-                    <a href="#register" class="link-register">Sign Up</a>
+                    
+                    <Link to="/registration">Sign Up</Link>
 
                 </div>
             </div>
