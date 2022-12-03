@@ -1,4 +1,31 @@
-<!DOCTYPE html>
+// import { Outlet, Link } from "react-router-dom";
+
+// const Registration = () => {
+//   return (
+//     <>
+//       <nav>
+//         <ul>
+//           <li>
+//             <Link to="/">Home</Link>
+//           </li>
+//           <li>
+//             <Link to="/blogs">Blogs</Link>
+//           </li>
+//           <li>
+//             <Link to="/contact">Contact</Link>
+//           </li>
+//         </ul>
+//       </nav>
+
+//       <Outlet />
+//     </>
+//   )
+// };
+
+// export default Layout;
+
+// <!DOCTYPE html>
+const Registration =() => {
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -11,11 +38,11 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Login Page</title>
+    <title>Register page</title>
     <meta charset="UTF-8" />
     <meta name="robots" content="follow,index" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Register</title>
 
     <meta
       name="description"
@@ -54,45 +81,47 @@
       rel="stylesheet"
     />
 
-    <!-- You don't need this script, this is my GA code -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25065548-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-25065548-2');
-    </script>
   </head>
   <body>
     <div class="content-body">
       <div class="form-wrapper">
         <form class="bg-white">
-          <h1 class="text-title">Login </h1>
+          <h1 class="text-title">Register</h1>
           <div class="field-group">
-            <label class="label" for="txt-email">Email address</label>
-            <input class="input" type="email" id="txt-email" name="email" placeholder="geraldtohdy@gmail.com" />
+            <label class="label" for="txt-email">User</label>
+            <input class="input" type="user" id="txt-user" name="email" placeholder="Enter user" />
           </div>
           <div class="field-group">
             <label class="label" for="txt-password">Password</label>
             <input class="input" type="password" id="txt-password" name="password" placeholder="Enter password" />
-            <a href="#forgot" class="link-forgot">Forgot?</a>
+            
+          </div>
+          <div class="field-group">
+            <label class="label" for="txt-first-name">First Name</label>
+            <input class="input" type="name" id="txt-first-name" name="password" placeholder="Enter first name" />
+            
+          </div>
+          <div class="field-group">
+            <label class="label" for="txt-last-name">Last Name</label>
+            <input class="input" type="name" id="txt-last-name" name="password" placeholder="Enter last name" />
+            
+          </div>
+          <div class="field-group">
+            <label class="label" for="txt-email">Email</label>
+            <input class="input" type="email" id="txt-email" name="password" placeholder="Enter email" />
+            
+          </div>
+          <div class="field-group">
+            <label class="label" for="txt-address">Address</label>
+            <input class="input" type="adress" id="txt-address" name="password" placeholder="Enter address" />
           </div>
 
           <div class="field-group">
-            <input class="btn-submit" type="submit" value="Log In" />
+            <input class="btn-submit" type="submit" value="Register" />
           </div>
         </form>
 
-        <div class="bg-grey">
-          
-          <li>
-          <Link to="/registration" class="link-register">Sign Up</Link>
-          </li>
-        </div>
+        
       </div>
     </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -100,3 +129,6 @@
 
   </body>
 </html>
+};
+
+export default Registration;
