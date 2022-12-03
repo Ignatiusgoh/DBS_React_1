@@ -2,10 +2,12 @@ import { useState } from "react";
 import Transactions from "./Transactions";
 import ScheduledTransactions from "./ScheduledTransactions";
 
-function Table() {
+function Table({ openModal }) {
   const [toggleState, setToggleState] = useState(1);
 
-  const create = () => {};
+  const create = () => {
+    openModal(true);
+  };
 
   return (
     <div
@@ -33,6 +35,7 @@ function Table() {
             style={{
               position: 'relative',
               top: 21,
+              top: 11,
               height: 30,
               background: "#ec1d25",
               borderTopLeftRadius: 10,
@@ -49,6 +52,7 @@ function Table() {
             style={{
               position: 'relative',
               top: 21,
+              top: 11,
               height: 30,
               background: "#ec1d25",
               borderTopLeftRadius: 10,
@@ -65,7 +69,7 @@ function Table() {
         <div
           style={{
             padding: 6,
-            margin: 10,
+            marginBottom: 10,
             fontSize: 14,
             color: "white",
             borderRadius: 10,

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LoginPage = () => {
   return (
     <div
@@ -48,6 +50,12 @@ const LoginPage = () => {
           <a href="#register" className="link-register">
             Sign Up
           </a>
+                <div class="bg-grey">
+                    
+                    <Link to="/registration">Sign Up</Link>
+
+                </div>
+            </div>
         </div>
       </div>
     </div>
