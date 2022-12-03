@@ -1,12 +1,12 @@
 import './App.css';
 import Balance from "./components/Balance"
-import AccInfo from "./components/AccInfo"
+import Dropdown from "./components/Dropdown"
 
 function App() {
   return (
     <div className="App">
       <Balance />
-      <AccInfo />
+      <Dropdown />
     </div>
   );
 }
