@@ -26,12 +26,10 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url("https://mazipan.github.io/login-page-css/undraw_secure_login_pdn4.svg");
-  background-position-x: center;
-  background-position-y: center;
+  background-image: url("https://images.unsplash.com/flagged/photo-1562503542-2a1e6f03b16b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-size: 1100px;
 }
 
 @media screen and (max-width: 640px) {
@@ -65,8 +63,8 @@ html {
   width: 100%;
   background-color: #fff;
   border: 2px solid #e5e7ec;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
   padding: 1em;
   text-align: center;
 }
@@ -82,9 +80,13 @@ html {
   text-align: center;
 }
 
+img {
+  width: 130px;
+  padding-bottom: 0.2em;
+}
 .text-title {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .field-group {
@@ -96,7 +98,8 @@ html {
 
 .label {
   font-size: 0.9rem;
-  line-height: 1.5;
+  line-height: 1.8;
+  padding-bottom: 5em;
 }
 
 .input {
@@ -109,8 +112,9 @@ html {
 }
 
 .btn-submit {
-  background-color: #6371c5;
+  background-color: #000000;
   color: #fff;
+  font-size: 15px;
   padding: 0.7em;
   border-radius: 5px;
   outline: 0;
@@ -123,20 +127,21 @@ html {
 .link-forgot {
   position: absolute;
   right: 10px;
-  margin-top: 1em;
+  margin-top: 0.5em;
   font-size: 0.8rem;
   text-decoration: none;
-  color: #6371c5;
+  color: #ff3333;
   z-index: 2;
 }
 
 .link-register {
-  background-color: #fff;
+  background-color: #ff3333;
   display: flex;
   padding: 0.7em;
   justify-content: center;
   text-decoration: none;
-  color: #4d5068;
+  color: #fff;
+  font-size: 15px;
   border: 1px solid #e5e7ec;
   border-radius: 5px;
   margin-bottom: 1em;
