@@ -17,6 +17,7 @@ function App() {
     <div className="App" style={{ width: '100%', height: '100%' }}>
       <Table />
     </div>
+    </div>
   );
 }
 
