@@ -2,16 +2,19 @@
   background-color: #ec1d25;
   color: white;
   display: flex;
-  width: 70%;
+  width: 100%;
   justify-content: space-between;
-  padding: 0px 50px 0px 50px;
   box-shadow: 0px 10px 14px -4px rgba(0, 0, 0, 0.75);
   border-bottom: 5px solid black;
   float: right;
 }
 
 .totalBalance {
-  width: 25git 0px;
+  padding-right: 10%;
+}
+
+.accBalance {
+  padding-left: 10%;
 }
 
 .dropbtn {
