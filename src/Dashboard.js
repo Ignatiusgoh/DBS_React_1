@@ -6,15 +6,19 @@ import { useState } from 'react';
 import Transactions from './components/Transactions';
 import ScheduledTransactions from './components/ScheduledTransactions';
 import Table from './components/Table';
-import Dashboard from './Dashboard';
 
-function App() {
+function Dashboard() {
 
   return (
-    <div className="App">
-      <Dashboard />
+    <div>
+      <Balance />
+      <Dropdown />
+      <Userinfo />
+    <div className="App" style={{ width: '100%', height: '100%' }}>
+      <Table />
+    </div>
     </div>
   );
 }
 
-export default App;
+export default Dashboard;
