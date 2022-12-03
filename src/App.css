@@ -176,3 +176,59 @@
   padding: 10px 24px;
 
 }
+
+html {
+  font-size: 16px;
+
+  /* If you set different base font, you might need more tweak */
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: rgb(242, 245, 247);
+  color: #4d5068;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.content-body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("https://images.unsplash.com/flagged/photo-1562503542-2a1e6f03b16b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+
+.form-wrapper {
+  width: 350px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+.link-continue {
+  background-color: #ff3333;
+  display: flex;
+  padding: 0.7em;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #e5e7ec;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
