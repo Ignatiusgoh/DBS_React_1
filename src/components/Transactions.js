@@ -21,7 +21,7 @@ function Transactions({toggleState, setToggleState}) {
 ];
     
     return (
-    <div style={{ display: toggleState === 1 ? 'flex': 'none', width: '100%', height: '100%', borderTopRightRadius: 20, background: '#ec1d25' }}>
+    <div style={{ display: toggleState === 1 ? 'flex': 'none', width: '100%', height: '100%', borderTopRightRadius: 20, background: '#ec1d25', marginBottom: -20 }}>
         <div style={{        
             width: '100%', height: 50, 
             display: 'flex', justifyContent: 'space-between', alignItems: 'center',

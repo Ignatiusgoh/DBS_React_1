@@ -1,7 +1,13 @@
 import React from "react";
 
-export default function Createschedule(props){
+export default function Createschedule({ openModal }){
+
+    const close = () => {
+        openModal(false);
+    }
+
     return (
+        <div style={{ position: 'absolute', top: 0 }}>
         <main className = 'SchedulePopup'>
             <div className = "HeaderScheduleTransactions">
             <h2> Create scheduled Transactions</h2>
@@ -45,9 +51,10 @@ export default function Createschedule(props){
             </div>
 
             <div className = "ScheduleTransactionsButton">
-                <button className="ScheduleTransactionsCloseButton"> Close </button>
+                <button className="ScheduleTransactionsCloseButton" onClick = {() => close()}> Close </button>
                 <button className="ScheduleTransactionsSubmitButton"> Submit </button>
             </div>
         </main>
+        </div>
     )
 }
