@@ -1,6 +1,6 @@
 const LoginPage = () => {
     return (
-        <div class="content-body">
+        <div class="content-body" background ="https://images.unsplash.com/flagged/photo-1562503542-2a1e6f03b16b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80">
             <div class="form-wrapper">
                 <form class="bg-white">
                     <img src="https://logos-download.com/wp-content/uploads/2016/12/DBS_Bank_logo_logotype.png" alt="DBS Logo" />
