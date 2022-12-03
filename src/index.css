@@ -45,13 +45,13 @@ html {
 }
 
 .form-wrapper {
-  width: 350px;
+  width: 450px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 640px) {
   .form-wrapper {
-    margin-top: 200px;
+    margin-top: 400px;
   }
 }
 
