@@ -7,7 +7,7 @@ const LoginPage = () => {
                         <h1 class="text-title">LOGIN </h1>
                         <div class="field-group">
                             <label class="label" for="txt-email">Email address</label>
-                            <input class="input" type="email" id="txt-email" name="email" placeholder="geraldtohdy@gmail.com" />
+                            <input class="input" type="email" id="txt-email" name="email" placeholder="youremail@gmail.com" />
                         </div>
                         <div class="field-group">
                             <label class="label" for="txt-password">Password</label>
