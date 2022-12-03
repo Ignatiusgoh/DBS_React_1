@@ -1,20 +1,15 @@
-import './App.css';
-import Balance from './components/Balance';
-import Dropdown from './components/Dropdown';
-import Userinfo from './components/Userinfo'
-import { useState } from 'react';
-import Transactions from './components/Transactions';
-import ScheduledTransactions from './components/ScheduledTransactions';
-import Table from './components/Table';
-import Dashboard from './Dashboard';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Dashboard from "./Dashboard";
 
 function App() {
-
-  return (
-    <div className="App">
-      <Dashboard />
-    </div>
-  );
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route exact path="/" element={<h1>route path</h1>} />
+				<Route exact path="/dashboard" element={<Dashboard />} />
+			</Routes>
+		</BrowserRouter>
+	);
 }
 
 export default App;
