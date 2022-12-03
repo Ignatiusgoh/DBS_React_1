@@ -103,3 +103,76 @@
   margin-left: 20px;
   margin-top: 150px;
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+.HeaderScheduleTransactions{
+  background-color: #ec1d25;
+  color: white;
+  border-color: white;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.SchedulePopup{
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  justify-items: auto;
+  align-items: center;
+  background-color: black;
+
+}
+
+.form--input{
+  margin: 10px;
+  width: 80%;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.form--input--comment{
+  margin: 10px;
+  height: 60px;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.ScheduleTransactionsButton{
+  display: flex;
+  width: 40px;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+
+}
+
+.ScheduleTransactionsCloseButton{
+  border-radius: 5px;
+  margin-right: 70px;
+  background-color: #ec1d25;
+  font-size: 20px;
+  color: white;
+  padding: 10px 24px;
+}
+
+.ScheduleTransactionsSubmitButton{
+  border-radius: 5px;
+  background-color: #ec1d25;
+  color: white;
+  font-size: 20px;
+  padding: 10px 24px;
+
+}
