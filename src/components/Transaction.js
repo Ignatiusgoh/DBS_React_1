@@ -17,22 +17,19 @@ function Transaction({transaction, toggleState, setToggleState}) {
                 <div style={{ display: 'flex', alignItems: 'center', width: '10%', height: '90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
                     <div style={{ width: '100%', height: 30 }}>{transaction.TransactionID}</div>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', width: '15%', height:'90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', width: '18%', height:'90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
                     <div style={{ width: '100%', height: 30 }}>{transaction.AccountID}</div>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', width: '15%', height: '90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', width: '18%', height: '90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
                     <div style={{ width: '100%', height: 30 }}>{transaction.ReceivingAccountID}</div>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', width: '15%', height: '90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
-                    <div style={{ width: '100%', height: 30 }}>{transaction.TransactionID}</div>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', width: '15%', height:'90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', width: '18%', height:'90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
                     <div style={{ width: '100%', height: 30 }}>{transaction.Date}</div>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', width: '15%', height: '90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', width: '18%', height: '90%', borderRight: '2px solid rgba(255, 255, 255, 0.5)' }}>
                     <div style={{ width: '100%', height: 30 }}>{transaction.TransactionAmount}</div>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', width: '15%', height: '90%' }}>
+                <div style={{ display: 'flex', alignItems: 'center', width: '18%', height: '90%' }}>
                     <div style={{ width: '100%', height: 30 }}>{transaction.Comment}</div>
                 </div>
             </div>
