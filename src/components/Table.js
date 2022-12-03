@@ -12,7 +12,7 @@ function Table() {
       className="App"
       style={{
         width: "70%",
-        height: "300px",
+        height: "100%",
         position: "absolute",
         left: "300px",
         top: "20%",
@@ -31,12 +31,15 @@ function Table() {
         >
           <div
             style={{
+              position: 'relative',
+              top: 21,
               height: 30,
               background: "#ec1d25",
               borderTopLeftRadius: 10,
               borderTopRightRadius: 10,
               padding: 10,
               marginRight: 10,
+              cursor: 'pointer'
             }}
             onClick={() => setToggleState(1)}
           >
@@ -44,12 +47,15 @@ function Table() {
           </div>
           <div
             style={{
+              position: 'relative',
+              top: 21,
               height: 30,
               background: "#ec1d25",
               borderTopLeftRadius: 10,
               borderTopRightRadius: 10,
               padding: 10,
               whiteSpace: "nowrap",
+              cursor: 'pointer'
             }}
             onClick={() => setToggleState(2)}
           >
@@ -64,6 +70,7 @@ function Table() {
             color: "white",
             borderRadius: 10,
             background: "#ec1d25",
+            cursor: 'pointer'
           }}
           onClick={() => create()}
         >
