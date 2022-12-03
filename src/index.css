@@ -34,6 +34,11 @@ html {
   background-size: 1100px;
 }
 
+body {
+  background-image: url("https://images.unsplash.com/flagged/photo-1562503542-2a1e6f03b16b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  background-size: cover;
+}
+
 @media screen and (max-width: 640px) {
   .content-body {
     background-position-y: top;
